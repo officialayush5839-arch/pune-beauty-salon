@@ -7,10 +7,10 @@ import { useNavigate } from "react-router";
 import GoldLine from "@services/components/GoldLine";
 import BlackButton from "@services/components/BlackButton";
 
-import img1 from "C:/Users/Vipul Bhamare/Downloads/Gemini_Generated_Image_yi8ef7yi8ef7yi8e.png";
-import img2 from "C:/Users/Vipul Bhamare/Downloads/Gemini_Generated_Image_yj0ctyj0ctyj0cty.png";
-import img3 from "C:/Users/Vipul Bhamare/Downloads/Gemini_Generated_Image_gu77nkgu77nkgu77.png";
-import img4 from "C:/Users/Vipul Bhamare/Downloads/Gemini_Generated_Image_rmw1ugrmw1ugrmw1.png";
+const img1 = "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1974&auto=format&fit=crop";
+const img2 = "https://images.unsplash.com/photo-1521590832167-7bfcfaa6362f?q=80&w=2070&auto=format&fit=crop";
+const img3 = "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=2069&auto=format&fit=crop";
+const img4 = "https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?q=80&w=2069&auto=format&fit=crop";
 
 const serviceHeroImages = [img1, img2, img3, img4];
 
