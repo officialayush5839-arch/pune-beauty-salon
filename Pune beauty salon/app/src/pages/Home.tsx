@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import SEO from "@/components/system/SEO";
 import Hero from "@/sections/Hero";
 import Welcome from "@/sections/Welcome";

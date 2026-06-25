@@ -19,7 +19,7 @@ export interface Salon {
   phone: string | null;
   website: string | null;
   // Legacy support for frontend mapping
-  priceRange: '$' | '$$' | '$$$' | '$$$$';
+  priceRange: string;
   services: string[];
   specialists: string[];
   matchScore: number;

@@ -98,7 +98,6 @@ export default function SalonDetailsModal({ salon, onClose }: Props) {
   const website = salon.website ?? null;
   const services = salon.services ?? [];
   const specialists = salon.specialists ?? [];
-  const priceRange = salon.priceRange ?? "$$";
   // Price Range Interceptor
   let displayPrice = salon.priceRange ?? "$$";
   if (name.toLowerCase().includes("juice salon kothrud")) {
